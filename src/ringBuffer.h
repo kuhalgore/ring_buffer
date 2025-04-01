@@ -3,7 +3,6 @@
 template <typename T, size_t N> 
 class RingBuffer
 {
-    
     std::array<T, N> buffer{};
     size_t pos = 0;
     size_t oldestElemPos = 0;
